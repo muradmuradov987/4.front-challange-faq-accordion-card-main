@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+
+
+.card-component {
+    max-width: 1100px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.style {
+    width: 100%;
+    position: relative;
+    
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.bg-pattern {
+    position: absolute;
+    top: -300px;
+    right: 160px;
+}
+
+.woman-online {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    right: 160px;
+}
+
+.box {
+    position: absolute;
+    top: 58%;
+    transform: translate(-50%, -50%);
+}
+
+
+.faq {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    
+}
+
+li{
+    list-style: none;
+    width: 100%;
+}
+
+.accordion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.accordion i{
+    margin-right: 60px;
+}
+
+.accordion.active {
+    font-weight: bold;
+}
+
+.accordion.active .arrow-down {
+    display: none;
+}
+
+.accordion.active .arrow-up {
+    display: block;
+}
+.arrow-up, .arrow-down {
+    color:hsl(14, 88%, 65%);
+}
+
+.accordion.active + p.answer {
+    max-height: 50px;
+    margin-top: 20px;
+}
+.answer{
+    max-height: 0;
+    transition:  0.15s ease;
+    overflow: hidden;
+}
+
+.accordion > i.arrow-down {
+    display: block;
+}
+
+.accordion > i.arrow-up {
+    display: none;
+}
+
+.accordion:hover{
+    color: hsl(14, 88%, 65%);
+}
+
+hr{
+    margin: 20px 60px 20px 0px;
+
+}

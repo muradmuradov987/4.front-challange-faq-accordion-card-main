@@ -1,0 +1,49 @@
+.container{
+    padding: 0px 20px 50px 20px;
+}
+.card-component {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    margin-top: 120px;
+
+}
+.style {
+    height: 130px;
+}
+.bg{
+    overflow: visible;
+}
+.bg-pattern{
+    width: 250px;
+    top: -133px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+}
+.woman-online {
+    width: 250px;
+    top: -13%;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+}
+.box {
+width: 120px;
+left: 0px;
+right: 70px;
+margin: auto;
+top: 0px;
+}
+
+.faq {
+    margin-top: 10px;
+    align-items: center;
+    padding: 0px 30px 30px 30px;
+}
+.accordion i{
+    margin-right: 0px;
+}
+hr{
+    margin-right: 0px; 
+}
